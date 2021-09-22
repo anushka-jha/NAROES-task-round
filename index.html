@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Ocean Engineering & Naval Architecture</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header" id="my-header">
+        <nav>
+            <a href="http://www.iitkgp.ac.in/" target="_blank">
+                <img class="logo-img" src="Images/kgp-logo.png" alt="Error">
+            </a>
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()" aria-hidden="true"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#ppl">People</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                    <li><a href="#Research">Research</a></li>
+                    <li><a href="#contact-ct">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h3>Indian Institute of Technology Kharagpur</h3>
+            <h1>Department of Ocean Engineering & Naval Architecture</h1>
+            <p>
+                The Department of Ocean Engineering and Naval Architecture was established in 1952, the first of its
+                kind in the whole nation. In it's 69 years of service to the nation, it has made significant
+                contributions to shipbuilding and shipping industries, including the Indian Navy, Indian Coast Guard,
+                DRDO and other allied organizations. 
+            </p>
+            <a href="https://wiki.metakgp.org/w/Department_of_Ocean_Engineering_%26_Naval_Architecture" class="hero-btn"
+                target="_blank">Click Here to Know More</a>
+
+        </div>
+    </section>
+
+    <!-- People -->
+    <section class="people" id="ppl">
+        <h3>People</h3>
+
+        <div class="row">
+            <div class="people-col">
+                <h4>Faculty</h4>
+            </div>
+            <div class="people-col">
+                <h4>Students</h4>
+            </div>
+            <div class="people-col">
+                <h4>Staff</h4>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Academics -->
+
+    <section class="acads" id="Academics">
+        <h3>Academics</h3>
+        <div class="row">
+            <div class="acads-col">
+                <h4>Programmes</h4>
+            </div>
+            <div class="acads-col">
+                <h4>Courses</h4>
+            </div>
+            <div class="acads-col">
+                <h4>Online-Semester</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Research -->
+    <section class="res" id="Research">
+        <h3>Research</h3>
+        <div class="row">
+            <div class="res-col">
+                <h4>Areas</h4>
+            </div>
+            <div class="res-col">
+                <h4>Labs</h4>
+            </div>
+            <div class="res-col">
+                <h4>Facilities</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact-us -->
+    <section class="cta" id="contact-ct">
+        <h3>Contact Us</h3>
+
+        <div class="contact-form">
+           <input name=" Name" type="text" class="form-control" placeholder="Your Name" required>
+        <br><br><br>
+        <input name="Email" type="email" class="form-control" placeholder="Your Email" required>
+        <br><br><br>
+        <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+        <br><br><br>
+        <input type="submit" class="form-control-submit" value="Submit">
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>
+            Department of
+            Ocean Engineering & Naval Architecture <br>
+            IIT Kharagpur <br>
+            721302 <br>
+            Kharagpur, West Bengal
+        </h4>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>
+            Made with <i class="fa fa-heart-o"></i> by Anushka Jha
+        </p>
+        <div class="footer-nav">
+        <a href="#my-header">Back to Top</a>
+      </div>
+    </section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
