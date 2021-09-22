@@ -213,7 +213,7 @@ h4{
 /* Acads */
 
 .acads{
-    
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -221,7 +221,7 @@ h4{
 }
 
 .acads-col{
-    width: 80%;
+    
     flex-basis: 31%;
     background: #734d19;
     border-radius: 10px;
